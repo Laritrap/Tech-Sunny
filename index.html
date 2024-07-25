@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Sunny</title>
+</head>
+<body>
+    <header>
+        <div class="site">
+            <img src="./img/Logo.png" alt="logo">
+            <h1>Tech <br> Sunny</h1>
+        </div>
+        <div class="botao">
+            <input type="checkbox" id="menu" class="menus">
+            <label for="menu">
+                <img src="./img/Menu.png" alt="menu">
+            </label>
+            <ul class="links">
+                <li class="menu-item"><a href="#funci">Como Funciona?</a></li>
+                <li class="menu-item"><a href="#benef">Benefícios</a></li>
+                <li class="menu-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="bene" id="intro">
+        <div class="quad">
+            <div class="texto">
+                <h2 class="intros">Uma energia limpa e renovável</h2>
+                <p>No Tech Sunny, você encontrará um guia especializado em 
+                   energia solar, oferecendo informações detalhadas sobre 
+                   como aproveitar eficazmente essa fonte de energia limpa
+                   e renovável. Nosso objetivo é fornecer um recurso 
+                   completo para entender e adotar a energia solar de
+                   maneira sustentável. Explore conosco as vantagens
+                   econômicas e ambientais dessa forma de energia em
+                   crescimento.
+                </p>
+            </div>
+            <img src="./img/enersol.png" alt="Foto de paineis solares">
+        </div>
+    </section>
+
+    <section class="funci" id="funci">
+        <div class="quadr">
+            <h2 class="func">Como a energia solar é captada</h2>
+            <p class="texto2">A energia solar é captada por meio de painéis solares, que são compostos por células fotovoltaicas.
+                 Essas células convertem a luz solar em eletricidade por meio do efeito fotovoltaico. Os painéis solares são instalados em locais com alta incidência solar para maximizar a captação de energia. A eletricidade 
+                gerada pode ser utilizada diretamente ou armazenada em baterias para uso posterior. Abaixo esta um vídeo do canal "Engenharia Detalhada" explicando mais profundamente sobre esse assunto.</p>
+                <div class="video"> <iframe width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/gi6xMlYK7Og?si=2OfrqAucfTT7YLYS" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe></div>
+        </div>
+    </section>
+
+    <section class="bene" id="benef">
+        <div class="quadr">
+            <h2>Benefícios da energia solar</h2>
+            <div class="benefit-cards">
+                <div class="benefit-card">
+                    <h3>Redução de Custos</h3>
+                    <p>Economize na conta de energia elétrica.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Energia Limpa</h3>
+                    <p>Utilize uma fonte de energia limpa e renovável.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Baixa Manutenção</h3>
+                    <p>Sistemas de energia solar requerem pouca manutenção.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Redução de Emissões</h3>
+                    <p>Contribua para a redução da emissão de gases de efeito estufa.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Valorização do Imóvel</h3>
+                    <p>Agregue valor ao seu imóvel com energia solar.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Independência Energética</h3>
+                    <p>Tenha maior controle sobre a sua própria produção de energia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="quadr">
+            <h2>Quer saber mais?</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+<footer>
+    <img src="./img/footer.png" alt="sol" class="sol">
+</footer>
+</html>
