@@ -86,10 +86,12 @@ li a{
 h1 {
     color: #FFC300;
     margin-left: 10px;
+    font-family: "Lexend Giga", sans-serif;;
 }
 
 h2 {
     color: #FFC300;
+    font-family: "Lexend Giga", sans-serif;;
 }
 
 .site {
